@@ -50,7 +50,7 @@ Javascript Remote Development Server for Visual Studio Code
   
   * Getting started on Remote development over SSH. [Check here](https://code.visualstudio.com/remote-tutorials/ssh/getting-started)
   
-  * after ssh into the remote server, the user is 'dev', which is a 'sudo' without a password. 
+  * after ssh into the remote server, the user is 'dev', which is a 'sudo' user without a password. 
 
   * test ssh to the container from your workstation
 ```
