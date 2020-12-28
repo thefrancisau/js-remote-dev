@@ -23,7 +23,7 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 RUN adduser dev
 RUN usermod -aG sudo dev
 RUN echo "dev ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
-RUN mkdir /home/dev/.ssh && mkdir /home/dev/secret && mkdir /home/dev/jscode
+RUN mkdir /home/dev/.ssh && mkdir /home/dev/secret && mkdir /home/dev/code
 RUN chown dev:dev -R /home/dev
 
 EXPOSE 22
